@@ -1,0 +1,35 @@
+.colorPrimary{
+ background-color: #1172D8 !important;
+}
+.indicator-item{
+    background-color: gray !important;
+}
+.carousel .indicators .indicator-item.active{
+    background-color:  #1172D8 !important;
+}
+.carousel .carousel-item {
+	width: 340px !important;
+    padding: 10px;
+    margin-top: -125px;
+}
+
+h5 , h3{
+    font-family: 'Rubik', sans-serif;
+}
+
+/* .card{ 
+	border-radius: 8px; 
+	position: relative !important;
+	right: 20px !important;
+} */
+
+.text-primary{
+    color: #3a3768 !important;
+}
+.balsa{
+    font-family: 'Balsamiq Sans', cursive;
+}
+.swiper-container {
+    width: auto;
+    /* height: 300px; */
+}

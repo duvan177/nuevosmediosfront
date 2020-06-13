@@ -1,0 +1,17 @@
+{
+  "name": "nuevosmediosfrontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "angular.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular-ui-carousel": "^0.1.10"
+  },
+  "devDependencies": {
+    "angular-ui-swiper": "^2.3.8"
+  }
+}

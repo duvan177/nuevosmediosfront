@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Bree+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+    <link rel="stylesheet" href="node_modules/angular-ui-swiper/dist/angular-ui-swiper.css">
+  
+    <link rel="stylesheet" href="css/app.css">
+    <!-- Angular Material CSS now available via Google CDN; version 1.1.9 used here -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="angular.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-materialize/0.2.2/angular-materialize.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular-route.min.js"></script>
+    <script src="node_modules/angular-ui-swiper/dist/angular-ui-swiper.js"></script>
+    <script src="app.js"> </script>
+    <script src="routes/routes.js"></script>
+
+    <!-- Pages and controllers -->
+    <script src="controllers/home/index.controller.js"></script>
+<!-- ------------------------------------------------------ -->
+    <script src="components/contents.js"></script>
+    <script src="components/nav/nav.controller.js"></script>
+    <script src="components/carousel/carousel.js"></script>
+
+
+
+ 
+  </head>
+  <body ng-app="app">
+    <nav-component></nav-component>
+    <div ng-view></div>
+
+
+    <script type="text/javascript">
+      document.addEventListener("DOMContentLoaded", function () {
+        var elems = document.querySelectorAll(".parallax");
+
+        
+        // console.log(elems);
+        // var instances = M.Parallax.init(elems);
+      });
+    </script>
+  </body>
+</html>
